@@ -1,5 +1,6 @@
 # DADA2 Walkthrough #
-In this repository, you will find a basic intro to the Divisive Amplicon Denoising Algorithm 2 (DADA2) pipeline based .
+In this repository, you will find a basic intro to the Divisive Amplicon Denoising Algorithm 2 (DADA2) pipeline based on [benjjneb/dada2](https://benjjneb.github.io/dada2/tutorial.html).
+
 
 ### Below you will see the basic functionalities of each command ###
 
@@ -43,3 +44,4 @@ Finds and removes sequences that may have been produced through chimera sequenci
 ```
 seqtab.nochim <- removeBimeraDenovo(seqtab, method="consensus", multithread=TRUE, verbose=TRUE)
 ```
+# For a full walkthrough w/annotated code, see [here](https://github.com/ciandotson/DADA2-intro/blob/main/sample-code.R)! #
